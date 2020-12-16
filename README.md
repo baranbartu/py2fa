@@ -8,8 +8,19 @@ This small life-hack won't save your life, but will definetely prevent possible 
 - Or, you can generate new barcode via related service.
 
 ## Installation
-- pip install py2fa
-- Or, directly via setup.py
+- Directly via setup.py
+
+```
+git clone git@github.com:baranbartu/py2fa.git
+cd py2fa
+python setup.py install
+
+```
+- from PYPI - not ready yet
+
+```
+pip install py2fa
+```
 
 ## Environment
 This repo implemented in a very short time of period, so tested only on below environment so far. 
