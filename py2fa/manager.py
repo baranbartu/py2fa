@@ -21,8 +21,7 @@ def generate_otp(service):
         raise ValueError('There is no barcode found for this service: {}'.format(service))
 
     totp = pyotp.TOTP(barcode)
-    otp = totp.now()
-    return otp
+    return totp.now()
 
 
 def generate_keychain_name(service):
